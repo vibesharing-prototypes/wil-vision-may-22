@@ -1,0 +1,9 @@
+# Used when this folder is the Netlify site root (monorepo: set Base directory to custom-attributes-v2).
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
