@@ -9,7 +9,7 @@
     "build": "vite build",
     "typecheck": "tsc -b",
     "preview": "vite preview",
-    "postinstall": "node ../scripts/patch-atlas-prototype-app-key.mjs"
+    "postinstall": "node ./scripts/patch-atlas-prototype-app-key.mjs"
   },
   "dependencies": {
     "@diligentcorp/atlas-react-bundle": "https://atlas.diligent.com/react-bundle.tgz",
